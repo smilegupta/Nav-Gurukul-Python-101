@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Aug 22 16:57:34 2020
 
-@author: Smile Gupta
-"""
 
 
 # Basic Function without Argunment
@@ -16,12 +11,13 @@ welcome()
 # Basic Function with Argunment
 
 def add(a,b):
-    """This function does not run for three number"""
+    
     total=a+b
     print(total)
 
-print(add.__doc__)
-add(5,6)
+#print(add.__doc__)
+print(sum.__doc__)
+# add(5,6)
 
 #Function with Argunments
 def add2(a=0,b=0):
@@ -54,4 +50,3 @@ print(ans)
 
 fun = lambda a,b:a+b
 print(fun(10,20))
-        

@@ -21,11 +21,17 @@ numbers between 1 and 30 (both included).
 6) Write a Python function to sum all the numbers in a list.
 
 
-7) Write a Python program that accepts a hyphen-separated sequence of words as input 
-and prints the words in a hyphen-separated sequence after sorting them alphabetically. 
+7) Write a Python program
+     that accepts a dash-separated sequence of words as input and prints the words in a hyphen-separated sequence after sorting them alphabetically. 
 Sample Items : green-red-yellow-black-white
 Expected Result : black-green-red-white-yellow
-"""
+
+
+jyoti-pranjali-mehak-suman-gouri
+
+step1:  thodna (split) >>>  jyoti pranjali mehak suman gouri  .split 
+step2: sorting >>> gouri jyoti mehak pranjali suman .sort
+step3: adding hyphen/dash again .join
 
 def is_even_num(l):
     enum = []
@@ -94,4 +100,41 @@ def printValues():
 		
 printValues()
 
+"""
+"""
 
+lambda a: a+b
+
+a for n in list1
+
+
+
+
+list = ["hello-smile"]
+
+for i in list:
+
+"""
+def string_reverse(str1):
+    rstr1 = ''
+    index = len(str1)
+    while index > 0:
+        rstr1 = rstr1 + str1[ index - 1 ]
+        index = index - 1
+    return rstr1
+
+print(string_reverse('axe'))
+string1="classmate"
+print(string1[len(string1):0:-1])
+
+
+"""
+a =  axe
+     012
+     
+a[1:]+a[0] xea
+a[1:] = xe
+
+
+ 
+"""

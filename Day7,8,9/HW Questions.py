@@ -25,5 +25,62 @@ The next perfect number is 28 = 1 + 2 + 4 + 7 + 14. This is followed by the perf
 
 7) Write a Lambda to sum all the numbers in a list.
 
-"""
 
+
+
+Complete the code  to create a string containing a double quote?
+
+"""
+num = int(input("Enter a number: "))  
+  
+if num > 1:  
+   for i in range(2,num):  
+       if (num % i) == 0:  
+           print(num,"is not a prime number")  
+           break  
+   else:  
+       print(num,"is a prime number")  
+         
+else:  
+   print(num,"is not a prime number")  
+   
+   
+def test_range(n):
+    if n in range(3,9):
+        print( " %s is in the range"%str(n))
+    else :
+        print("The number is outside the given range.")
+test_range(5)
+
+
+def perfect_number(n):
+    sum = 0
+    for x in range(1, n):
+        if n % x == 0:
+            sum += x
+    return sum == n
+print(perfect_number(6))
+ 
+
+def myfunc1():
+  x = "John"
+  def myfunc2():
+    nonlocal x
+    x = "hello"
+  myfunc2()
+  return x
+
+print(myfunc1())
+
+
+
+r = lambda a : a + 100
+print(r(10))
+
+
+r = lambda x, y : x * y
+print(r(12, 4))
+
+
+nums = [2, 4]
+print(sum([i for i in nums]))

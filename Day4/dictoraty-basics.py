@@ -7,6 +7,7 @@ d2={"Smile":"Python",
     "Shivanshu":"Java"}
 print(d2)
 d2["Prachi"]="HTML"
+d2["Srushith"]="Serverless"
 d2.update({"Shaina":"Clients"})
 print(d2)
 del d2["Shivanshu"]

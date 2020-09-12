@@ -1,0 +1,14 @@
+You are a Fitness Trainer 
+You have three clients: Megha, Gouri and Jyoti 
+You have to keep a track of what food each girl eat and then how much hour she work
+Total files: 6 (2 each)
+
+Two functions it should perform
+1) Retreiving record
+2) Updating the record
+
+When you start the program:
+1) It should ask you whether you want to retreive info or update information
+2) Suppose I chose Retreive Information --- then ask whose record you wanna see (1 for megha, 2 for gouri and 3 for jyoti)
+3) Say I chose Megha: then program will ask me that wheather i wanna see info regarding food/ work
+4) According to the choice i may see it
